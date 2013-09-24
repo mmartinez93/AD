@@ -1,0 +1,2 @@
+select * from categoria
+where id in (select categoria from articulo)

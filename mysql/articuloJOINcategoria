@@ -1,0 +1,3 @@
+select a.id, a.nombre, c.nombre Categoria
+from articulo a inner join categoria c
+on a.categoria = c.id 
