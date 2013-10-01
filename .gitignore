@@ -88,6 +88,12 @@ csx
 # Windows Store app package directory
 AppPackages/
 
+#ignore añadido
+
+*.userpref
+*.pidb
+*~
+
 # Others
 [Bb]in
 [Oo]bj
